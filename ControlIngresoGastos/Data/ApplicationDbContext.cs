@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ControlIngresoGastos.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,7 @@ namespace ControlIngresoGastos.Data
         {
 
         }
+
+        public DbSet<Categoria> Categorias { get; set; }
     }
 }
