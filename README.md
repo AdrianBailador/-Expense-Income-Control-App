@@ -1,2 +1,2 @@
-# Expense Income Control App
+# Expense Income Control App  💹 💲
  
